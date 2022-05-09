@@ -1,15 +1,13 @@
 a {
   font-size: 3vh;
   text-decoration: none;
-}
-ul {
-  transform: rotateZ(351deg);
+  color: darkgray;
 }
 h1 {
   margin: 20px;
-  transform: rotate(356deg);
+  /* transform: rotate(356deg); */
 }
 h2 {
   margin-left: -6vw;
-  transform: rotate(317deg);
+  /* transform: rotate(317deg); */
 }
