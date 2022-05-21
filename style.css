@@ -1,13 +1,20 @@
-a {
-  font-size: 3vh;
+.vk {
+  color: aliceblue;
+  text-shadow: 0 0 5px #009688;
+}
+.exam {
+  color: aliceblue;
+  text-shadow: 0 0 5px #009688;
+}
+
+/* a {
   text-decoration: none;
-  color: darkgray;
-}
-h1 {
-  margin: 20px;
-  /* transform: rotate(356deg); */
-}
-h2 {
-  margin-left: -6vw;
-  /* transform: rotate(317deg); */
-}
+} */
+
+/* .fa-wordpress,
+.fa-facebook-official,
+.fa-github,
+.fa-twitter,
+.fa-twitter{
+  color: aliceblue;
+} */
