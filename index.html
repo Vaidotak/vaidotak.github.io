@@ -20,6 +20,7 @@
             font-family: "Roboto", sans-serif;
         }
     </style>
+    <link href="./lightbox/css/lightbox.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -74,6 +75,18 @@
                                 90%
                             </div>
                         </div>
+                        <p>MySQL</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 0">
+                                0
+                            </div>
+                        </div>
+                        <p>MongoDB</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 0">
+                                0
+                            </div>
+                        </div>
                         <p>JAVA</p>
                         <div class="w3-light-grey w3-round-xlarge w3-small">
                             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 1%">
@@ -117,28 +130,54 @@
                             <i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2022 -
                             <span class="w3-tag w3-teal w3-round">Current</span>
                         </h6>
-                        <a href="https://github.com/Vaidotak/JS_egzaminas">JavaScript exam // 10 tasks // source &#8594;</a>
-                        <button onclick="myFunction('tasks')" class="w3-btn w3-block w3-light-grey">
-                            tasks screenshots</button>
-                            
-                            <div id="tasks" class="w3-hide w3-container w3-center w3-grey">
-                                <img src="./pic/tasks/task1.jpg" style="width: 100%; padding: 5px" />
-                                <img src="./pic/tasks/task2.jpg" style="width: 100%; padding: 5px" />
-                                <img src="./pic/tasks/task3.jpg" style="width: 100%; padding: 5px" />
-                                <img src="./pic/tasks/task4.jpg" style="width: 100%; padding: 5px" />
-                                <img src="./pic/tasks/task5.jpg" style="width: 100%; padding: 5px" />
-                                <img src="./pic/tasks/task6.jpg" style="width: 100%; padding: 5px" />
-                                <img src="./pic/tasks/task7.jpg" style="width: 100%; padding: 5px" />
-                                <img src="./pic/tasks/task8.jpg" style="width: 100%; padding: 5px" />
-                                <img src="./pic/tasks/task9.jpg" style="width: 100%; padding: 5px" />
-                                <img src="./pic/tasks/task10.jpg" style="width: 100%; padding: 5px" />
-                            </div>
+                        <a href="https://github.com/Vaidotak/JS_egzaminas">JavaScript exam // 10 tasks // source
+                            &#8594;</a>
+                            <br />
+                            <br />
+                        <!-- <button onclick="myFunction('tasks')" class="w3-btn w3-block w3-light-grey">
+                            tasks screenshots</button> -->
+
+                        <!-- <div id="tasks" class="w3-hide w3-container w3-center w3-grey">
+                            <img src="./pic/tasks/task1.jpg" style="width: 100%; padding: 5px" />
+                            <img src="./pic/tasks/task2.jpg" style="width: 100%; padding: 5px" />
+                            <img src="./pic/tasks/task3.jpg" style="width: 100%; padding: 5px" />
+                            <img src="./pic/tasks/task4.jpg" style="width: 100%; padding: 5px" />
+                            <img src="./pic/tasks/task5.jpg" style="width: 100%; padding: 5px" />
+                            <img src="./pic/tasks/task6.jpg" style="width: 100%; padding: 5px" />
+                            <img src="./pic/tasks/task7.jpg" style="width: 100%; padding: 5px" />
+                            <img src="./pic/tasks/task8.jpg" style="width: 100%; padding: 5px" />
+                            <img src="./pic/tasks/task9.jpg" style="width: 100%; padding: 5px" />
+                            <img src="./pic/tasks/task10.jpg" style="width: 100%; padding: 5px" />
+                        </div> -->
+                        <a href="./pic/tasks/task1.jpg" data-lightbox="roadtrip">Task 1</a> ||
+                        <a href="./pic/tasks/task2.jpg" data-lightbox="roadtrip">Task 2</a> ||
+                        <a href="./pic/tasks/task3.jpg" data-lightbox="roadtrip">Task 3</a> ||
+                        <a href="./pic/tasks/task4.jpg" data-lightbox="roadtrip">Task 4</a> ||
+                        <a href="./pic/tasks/task5.jpg" data-lightbox="roadtrip">Task 5</a> ||
+                        <a href="./pic/tasks/task6.jpg" data-lightbox="roadtrip">Task 6</a> ||
+                        <a href="./pic/tasks/task7.jpg" data-lightbox="roadtrip">Task 7</a> ||
+                        <a href="./pic/tasks/task8.jpg" data-lightbox="roadtrip">Task 8</a> ||
+                        <a href="./pic/tasks/task9.jpg" data-lightbox="roadtrip">Task 9</a> ||
+                        <a href="./pic/tasks/task10.jpg" data-lightbox="roadtrip">Task 10</a>
                         <br />
-                       
-                            <!-- <img src="./pic/jsexam.jpg" style="width: 100%; opacity: 80%; margin-top: 2%" alt="exam" /> -->
-                            
+                        <br />
+                        <!-- <div class="w3-container">
+                                                     
+                            <img src="./pic/exam.png" style="width:50%;cursor:zoom-in"
+                            onclick="document.getElementById('modal01').style.display='block'">
+                          
+                            <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                              <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                              <div class="w3-modal-content w3-animate-zoom">
+                                <img src="./pic/exam.png" style="width:120%">
+                              </div>
+                            </div>
+                          </div> -->
+                        <a href="./pic/exam.png" data-lightbox="image-1" data-title="Evaluation">
+                            <img src="./pic/exam.png" style="width: 100%" alt="evaluation" />
+                        </a>
                         <p>
-                            Somethink just like this &#8593;
+                            Somethink just like this (evaluation) &#8593;
                         </p>
                         <hr />
                     </div>
@@ -150,8 +189,9 @@
                         <a href="https://www.vaidotas.tech/orai/">Weather app &#8594;</a> //
                         <a href="https://github.com/Vaidotak/orai">Source &#8594;</a>
                         <p></p>
-                            <a href="https://openweathermap.org/api">OpenWeather API &#8594;</a> <a href="https://www.vaidotas.tech/orai">www.vaidotas.tech/orai</a>
-                        
+                        <a href="https://openweathermap.org/api">OpenWeather API &#8594;</a> <a
+                            href="https://www.vaidotas.tech/orai">www.vaidotas.tech/orai</a>
+
                         <hr />
                     </div>
                     <div class="w3-container">
@@ -195,7 +235,7 @@
                             <i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever
                         </h6>
                         <p>All I need to know in one place</p>
-                        
+
                     </div>
                 </div>
 
@@ -214,11 +254,12 @@
         <a href="https://vaidotak.blogspot.com/"><i class="fa fa-wordpress w3-hover-opacity"></i></a>
         <a href="https://github.com/Vaidotak"><i class="fa fa-github w3-hover-opacity"></i></a>
         <a href="https://twitter.com/aromatas"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-         <p>
+        <p>
             Powered by
             <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
         </p>
     </footer>
+    <script src="./lightbox/js/lightbox-plus-jquery.js"></script>
     <script src="script.js"></script>
 </body>
 
