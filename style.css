@@ -7,6 +7,15 @@
   text-shadow: 0 0 5px #009688;
 }
 
+.nuorodos {
+  text-decoration: none;
+  color: #009688;
+}
+
+.nuorodos:hover {
+  color: #03ccb8;
+}
+
 /* a {
   text-decoration: none;
 } */
