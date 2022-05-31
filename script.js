@@ -5,4 +5,10 @@ function myFunction(id) {
     } else { 
       x.className = x.className.replace(" w3-show", "");
     }
-  }
+}
+console.log("%c:D", "color:yellow; font-size:7vh");
+console.log("%c¯\_(ツ)_/¯", "color:green; font-size:7vh");
+console.log("%cHello Neo, follow The white rabbit...", "color:red; font-size:7vh");
+
+
+
