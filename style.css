@@ -1,6 +1,7 @@
 .vk {
-  color: aliceblue;
-  text-shadow: 0 0 5px #009688;
+  color: #47bb6040;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  
 }
 .exam {
   color: aliceblue;
